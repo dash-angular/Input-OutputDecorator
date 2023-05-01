@@ -1,0 +1,8 @@
+<h1>Parent Component</h1>
+{{Pdata}}
+
+<!-- Input binding -->
+<!-- <input type="text" #Pcom (keyup)="0"> -->
+
+<!-- <app-child [Pdata]="Pcom.value"> </app-child> -->
+<app-child (childevent)="Pdata=$event"> </app-child>
